@@ -20,6 +20,7 @@
     "productId": [
       62
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1497,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1497/Aeon Labs Garage Door Controller Gen5 manual.pdf",
     "learnmode": {

@@ -19,6 +19,7 @@
     "productId": [
       117
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2520,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2520/Range Extender 6 manual.pdf",
     "learnmode": {

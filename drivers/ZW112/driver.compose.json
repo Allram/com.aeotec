@@ -22,6 +22,7 @@
     "productId": [
       112
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2770,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2770/Door Window Sensor 6 manual.pdf",
     "learnmode": {

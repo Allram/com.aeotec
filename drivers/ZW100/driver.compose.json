@@ -29,6 +29,7 @@
       2,
       514
     ],
+    "includeSecure": false,
     "productId": 100,
     "zwaveAllianceProductId": 2714,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2714/Aeon Labs MultiSensor 6 manual.pdf",

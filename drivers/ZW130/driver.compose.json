@@ -23,6 +23,7 @@
     "productId": [
       130
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2153,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2153/Aeon Labs WallMote Quad manual.pdf",
     "learnmode": {

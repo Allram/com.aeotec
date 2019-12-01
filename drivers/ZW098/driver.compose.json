@@ -26,6 +26,7 @@
     "productId": [
       98
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1851,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1851/LED Bulb manual.pdf",
     "learnmode": {

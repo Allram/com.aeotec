@@ -35,6 +35,7 @@
     "productId": [
       121
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2000,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2000/LED Strip manual.pdf",
     "learnmode": {

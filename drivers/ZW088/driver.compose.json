@@ -25,6 +25,7 @@
       22,
       88
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1178,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1178/Instructions - Aeon Labs Key Fob Gen5 MCert.pdf",
     "learnmode": {

@@ -21,6 +21,7 @@
     "productId": [
       78
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1142,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1142/Heavy Duty Smart Switch Gen5 Manual.pdf",
     "learnmode": {

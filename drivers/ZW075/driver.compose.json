@@ -25,6 +25,7 @@
       72,
       75
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1416,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1416/Aeon Labs Smart Switch Gen5 manual.pdf",
     "learnmode": {

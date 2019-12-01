@@ -37,6 +37,7 @@
     "productId": [
       80
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1141,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1141/Siren Gen5 Manual.pdf",
     "learnmode": {

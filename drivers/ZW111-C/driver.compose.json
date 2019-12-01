@@ -28,6 +28,7 @@
     "productId": [
       111
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2135,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2135/Aeon Labs Nano Dimmer manual.pdf",
     "learnmode": {

@@ -7,6 +7,7 @@
     "manufacturerId": 134,
     "productTypeId": 4,
     "productId": 37,
+    "includeSecure": false,
     "learnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {

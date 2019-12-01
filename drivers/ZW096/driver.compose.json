@@ -23,6 +23,7 @@
     "productId": [
       96
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2515,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2515/Instructions - Aeon Labs Smart Switch 6 (2).pdf",
     "learnmode": {

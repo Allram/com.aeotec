@@ -32,6 +32,7 @@
     "productId": [
       74
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1169,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1169/Instructions - MultiSensor Gen5 MCert1.pdf",
     "learnmode": {

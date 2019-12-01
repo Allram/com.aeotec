@@ -26,6 +26,7 @@
       54,
       89
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1184,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1184/Recessed Door Sensor Gen5 - Manual MCert.pdf",
     "learnmode": {

@@ -26,6 +26,7 @@
     "productId": [
       45
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/DSB45/assets/learnmode.svg",
       "instruction": {

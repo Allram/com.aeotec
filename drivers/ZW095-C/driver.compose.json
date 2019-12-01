@@ -23,6 +23,7 @@
       28,
       95
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1596,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1596/Home Energy Meter Gen5 manual.pdf",
     "learnmode": {

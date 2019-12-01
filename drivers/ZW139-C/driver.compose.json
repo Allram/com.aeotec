@@ -20,6 +20,7 @@
     "productId": [
       139
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2320,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2320/Nano Switch manual.pdf",
     "learnmode": {

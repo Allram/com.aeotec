@@ -24,6 +24,7 @@
       20,
       99
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 1519,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1519/Manual Aeon Labs Smart Dimmer 6.pdf",
     "learnmode": {
