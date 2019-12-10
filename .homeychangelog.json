@@ -1,0 +1,6 @@
+{
+    "2.1.0": {
+        "en": "Include basic support for Siren 6. Dual Nano Switch (ZW132) now polls for power changes. Updated device ID's. Various small fixes.",
+        "nl": "Deze update voegt basis ondersteuning toe voor de Siren 6. Dual Nano Switch (ZW132) controleert nu voor verbruiks veranderingen. Apparaat ID's bijgewerkt."
+    }
+}

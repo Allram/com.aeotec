@@ -5,11 +5,17 @@
   },
   "class": "other",
   "capabilities": [
-    "onoff.siren"
+    "onoff.siren",
+    "alarm_tamper"
   ],
   "images": {
     "large": "{{driverAssetsPath}}/images/large.jpg",
     "small": "{{driverAssetsPath}}/images/small.jpg"
+  },
+  "energy": {
+    "batteries": [
+      "INTERNAL"
+    ]
   },
   "zwave": {
     "manufacturerId": 881,
@@ -20,22 +26,24 @@
       164
     ],
     "includeSecure": false,
-    "zwaveAllianceProductId": 1141,
-    "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1141/Siren Gen5 Manual.pdf",
+    "zwaveAllianceProductId": 3301,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3301/Indoor%20Siren%206%20product%20manual.pdf",
     "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Press the action button on the {{driverNameEn}}",
-        "nl": "Druk op de actie knop op de {{driverNameNl}}"
+        "en": "Press the action button on the rear of {{driverNameEn}}",
+        "nl": "Druk op de actie knop op de achterkant van {{driverNameNl}}"
       }
     },
     "unlearnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Quickly press the action button on the {{driverNameEn}} 6 times.",
-        "nl": "Druk 6 keer snel achter elkaar op de actie knop van de {{driverNameNl}}."
+        "en": "Quickly press the action button on the rear of {{driverNameEn}} 6 times.",
+        "nl": "Druk 6 keer snel achter elkaar op de actie knop van de achterkant van {{driverNameNl}}."
       }
     },
-    "associationGroups": [
-      1
+    "associationGroupsMultiChannel": [
+      1, 2, 3, 4, 5, 6, 7, 8
     ],
     "associationGroupsOptions": {
       "1": {

@@ -12,6 +12,11 @@
     "large": "{{driverAssetsPath}}/images/large.png",
     "small": "{{driverAssetsPath}}/images/small.png"
   },
+  "energy": {
+    "batteries": [
+      "INTERNAL"
+    ]
+  },
   "zwave": {
     "manufacturerId": 134,
     "productTypeId": [

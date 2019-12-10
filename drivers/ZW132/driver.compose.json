@@ -17,6 +17,7 @@
     "manufacturerId": 134,
     "productTypeId": [
       3,
+      259,
       515
     ],
     "productId": [
@@ -44,11 +45,6 @@
         "id": 90,
         "size": 1,
         "value": 1
-      },
-      {
-        "id": 92,
-        "size": 1,
-        "value": 30
       }
     ],
     "associationGroupsMultiChannel": [ 3, 4 ],

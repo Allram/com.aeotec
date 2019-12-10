@@ -8,7 +8,6 @@ class ZW112 extends ZwaveDevice {
 		this.registerCapability('alarm_contact', 'BASIC');
 		this.registerCapability('measure_batttery', 'BATTERY');
 	}
-	// TODO: add battery type (INTERNAL) to driver.compose
 }
 
 module.exports = ZW112;

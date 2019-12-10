@@ -3,8 +3,8 @@
   "name": {
     "en": "Aeotec"
   },
-  "version": "2.0.39",
-  "compatibility": ">=2.4.0",
+  "version": "2.1.0",
+  "compatibility": ">=3.1.0",
   "sdk": 2,
   "brandColor": "#00A2DA",
   "category": [
@@ -5391,6 +5391,11 @@
         "large": "/drivers/ZW112/assets/images/large.png",
         "small": "/drivers/ZW112/assets/images/small.png"
       },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
+      },
       "zwave": {
         "manufacturerId": 134,
         "productTypeId": [
@@ -6361,7 +6366,8 @@
       "zwave": {
         "manufacturerId": 134,
         "productTypeId": [
-          2
+          2,
+          258
         ],
         "productId": [
           122
@@ -6556,6 +6562,11 @@
       "images": {
         "large": "/drivers/ZW129/assets/images/large.png",
         "small": "/drivers/ZW129/assets/images/small.png"
+      },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
       },
       "zwave": {
         "manufacturerId": 134,
@@ -6890,6 +6901,11 @@
       "images": {
         "large": "/drivers/ZW130/assets/images/large.png",
         "small": "/drivers/ZW130/assets/images/small.png"
+      },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
       },
       "zwave": {
         "manufacturerId": 134,
@@ -7254,6 +7270,7 @@
         "manufacturerId": 134,
         "productTypeId": [
           3,
+          259,
           515
         ],
         "productId": [
@@ -7280,11 +7297,6 @@
             "id": 90,
             "size": 1,
             "value": 1
-          },
-          {
-            "id": 92,
-            "size": 1,
-            "value": 30
           }
         ],
         "associationGroupsMultiChannel": [
@@ -8062,11 +8074,17 @@
       },
       "class": "other",
       "capabilities": [
-        "onoff.siren"
+        "onoff.siren",
+        "alarm_tamper"
       ],
       "images": {
         "large": "/drivers/ZW164-C/assets/images/large.jpg",
         "small": "/drivers/ZW164-C/assets/images/small.jpg"
+      },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
       },
       "zwave": {
         "manufacturerId": 881,
@@ -8076,22 +8094,31 @@
         "productId": [
           164
         ],
-        "zwaveAllianceProductId": 1141,
-        "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1141/Siren Gen5 Manual.pdf",
+        "zwaveAllianceProductId": 3301,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3301/Indoor%20Siren%206%20product%20manual.pdf",
         "learnmode": {
+          "image": "/drivers/ZW164-C/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the action button on the Indoor Siren 6",
-            "nl": "Druk op de actie knop op de Indoor Siren 6"
+            "en": "Press the action button on the rear of Indoor Siren 6",
+            "nl": "Druk op de actie knop op de achterkant van Indoor Siren 6"
           }
         },
         "unlearnmode": {
+          "image": "/drivers/ZW164-C/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the action button on the Indoor Siren 6 6 times.",
-            "nl": "Druk 6 keer snel achter elkaar op de actie knop van de Indoor Siren 6."
+            "en": "Quickly press the action button on the rear of Indoor Siren 6 6 times.",
+            "nl": "Druk 6 keer snel achter elkaar op de actie knop van de achterkant van Indoor Siren 6."
           }
         },
-        "associationGroups": [
-          1
+        "associationGroupsMultiChannel": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
         "associationGroupsOptions": {
           "1": {
@@ -8198,7 +8225,8 @@
       "zwave": {
         "manufacturerId": 881,
         "productTypeId": [
-          2
+          2,
+          514
         ],
         "productId": [
           7

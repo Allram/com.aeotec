@@ -1,0 +1,1 @@
+Aeotec heeft een uitgebreide lijn van sensoren en schakelaars – zowel ingebouwd als onzichtbaar. Allemaal kunnen ze direct en draadloos bestuurd worden door Homey.

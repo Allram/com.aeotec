@@ -6,7 +6,7 @@ This app adds support for Aeotec devices in Homey.
 
 ### v2.0.39
 - Added Siren 6 (ZW-164).
-
+- Added ID foor Door/Window Sensor 7.
 ### 2.0.38
 - Added battery types for battery operated devices.
 - Updated meshdriver.

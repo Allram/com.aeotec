@@ -1,0 +1,1 @@
+Aeotec features an extensive range of sensors and switches, visible and built-in. And all of them can be directly, wirelessly controlled by Homey.
