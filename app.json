@@ -795,6 +795,7 @@
         "productId": [
           38
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1284,
         "learnmode": {
           "instruction": {
@@ -847,6 +848,7 @@
         "productId": [
           5
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 763,
         "learnmode": {
           "image": "/drivers/DSB05/assets/learnmode.svg",
@@ -1165,6 +1167,7 @@
         "productId": [
           45
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/DSB45/assets/learnmode.svg",
           "instruction": {
@@ -1268,6 +1271,7 @@
         "manufacturerId": 134,
         "productTypeId": 4,
         "productId": 37,
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/DSD37/assets/learnmode.svg",
           "instruction": {
@@ -1308,6 +1312,7 @@
         "productId": [
           62
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1497,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1497/Aeon Labs Garage Door Controller Gen5 manual.pdf",
         "learnmode": {
@@ -1743,6 +1748,7 @@
         "productId": [
           74
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1169,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1169/Instructions - MultiSensor Gen5 MCert1.pdf",
         "learnmode": {
@@ -2165,6 +2171,7 @@
           72,
           75
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1416,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1416/Aeon Labs Smart Switch Gen5 manual.pdf",
         "learnmode": {
@@ -2603,6 +2610,7 @@
         "productId": [
           78
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1142,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1142/Heavy Duty Smart Switch Gen5 Manual.pdf",
         "learnmode": {
@@ -2850,6 +2858,7 @@
         "productId": [
           80
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1141,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1141/Siren Gen5 Manual.pdf",
         "learnmode": {
@@ -3032,6 +3041,7 @@
           22,
           88
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1178,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1178/Instructions - Aeon Labs Key Fob Gen5 MCert.pdf",
         "learnmode": {
@@ -3115,6 +3125,7 @@
           54,
           89
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1184,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1184/Recessed Door Sensor Gen5 - Manual MCert.pdf",
         "learnmode": {
@@ -3225,6 +3236,7 @@
           28,
           95
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1596,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1596/Home Energy Meter Gen5 manual.pdf",
         "learnmode": {
@@ -3602,6 +3614,7 @@
         "productId": [
           96
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2515,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2515/Instructions - Aeon Labs Smart Switch 6 (2).pdf",
         "learnmode": {
@@ -4113,6 +4126,7 @@
         "productId": [
           98
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1851,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1851/LED Bulb manual.pdf",
         "learnmode": {
@@ -4200,6 +4214,7 @@
           20,
           99
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1519,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1519/Manual Aeon Labs Smart Dimmer 6.pdf",
         "learnmode": {
@@ -4647,6 +4662,7 @@
           2,
           514
         ],
+        "includeSecure": false,
         "productId": 100,
         "zwaveAllianceProductId": 2714,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2714/Aeon Labs MultiSensor 6 manual.pdf",
@@ -5101,6 +5117,7 @@
         "productId": [
           111
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2135,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2135/Aeon Labs Nano Dimmer manual.pdf",
         "learnmode": {
@@ -5406,6 +5423,7 @@
         "productId": [
           112
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2770,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2770/Door Window Sensor 6 manual.pdf",
         "learnmode": {
@@ -5538,6 +5556,7 @@
         "productId": [
           116
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2289,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2289/Nano Switch manual.pdf",
         "learnmode": {
@@ -5793,6 +5812,7 @@
         "productId": [
           117
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2520,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2520/Range Extender 6 manual.pdf",
         "learnmode": {
@@ -5857,6 +5877,7 @@
           42,
           120
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1579,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1579/Door Window Sensor Gen5 manual.pdf",
         "learnmode": {
@@ -6056,6 +6077,7 @@
         "productId": [
           121
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2000,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2000/LED Strip manual.pdf",
         "learnmode": {
@@ -6372,6 +6394,7 @@
         "productId": [
           122
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1579,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1579/Door Window Sensor Gen5 manual.pdf",
         "learnmode": {
@@ -6579,6 +6602,7 @@
         "productId": [
           129
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2234,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2234/Aeon Labs WallMote manual.pdf",
         "learnmode": {
@@ -6918,6 +6942,7 @@
         "productId": [
           130
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2153,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2153/Aeon Labs WallMote Quad manual.pdf",
         "learnmode": {
@@ -7276,6 +7301,7 @@
         "productId": [
           132
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2286,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2286/Oomi Dual In-Wall Switch manual.pdf",
         "learnmode": {
@@ -7555,6 +7581,7 @@
         "productId": [
           139
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2320,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2320/Nano Switch manual.pdf",
         "learnmode": {
@@ -7819,6 +7846,7 @@
           132,
           140
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2286,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2286/Oomi Dual In-Wall Switch manual.pdf",
         "learnmode": {
@@ -8094,6 +8122,7 @@
         "productId": [
           164
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 3301,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3301/Indoor%20Siren%206%20product%20manual.pdf",
         "learnmode": {
@@ -8231,6 +8260,7 @@
         "productId": [
           7
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2286,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2286/Oomi Dual In-Wall Switch manual.pdf",
         "learnmode": {
