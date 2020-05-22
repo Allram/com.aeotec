@@ -3,7 +3,7 @@
   "name": {
     "en": "Aeotec"
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "compatibility": ">=3.1.0",
   "sdk": 2,
   "brandColor": "#00A2DA",
@@ -14,8 +14,7 @@
     "climate"
   ],
   "description": {
-    "en": "Aeotec devices for Homey",
-    "nl": "Aeotec ondersteuning voor Homey"
+    "en": "Intelligent automation."
   },
   "images": {
     "large": "/assets/images/large.png",
@@ -673,6 +672,96 @@
               }
             ],
             "value": "0"
+          }
+        ]
+      },
+      {
+        "id": "ZW162-turn_alarm_on",
+        "title": {
+          "en": "Trigger doorbell chime",
+          "nl": "Trigger deurbel geluid"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZW162-C"
+          },
+          {
+            "name": "sound",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Doorbell",
+                  "nl": "Deurbel"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Alarm Siren",
+                  "nl": "Alarm sirene"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Ding dong",
+                  "nl": "Ding dong"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Bell Telephone",
+                  "nl": "Klassieke telefoon"
+                }
+              },
+              {
+                "id": "5",
+                "label": {
+                  "en": "Big Ben",
+                  "nl": "Big Ben"
+                }
+              },
+              {
+                "id": "6",
+                "label": {
+                  "en": "Smoke Alarm",
+                  "nl": "Rook alarm"
+                }
+              },
+              {
+                "id": "7",
+                "label": {
+                  "en": "Nuclear Alarm",
+                  "nl": "Nuclear alarm"
+                }
+              },
+              {
+                "id": "8",
+                "label": {
+                  "en": "Ring Alarm",
+                  "nl": "Bel alarm"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZW162-turn_alarm_off",
+        "title": {
+          "en": "Turn doorbell chime off",
+          "nl": "Zet deurbel geluid uit"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZW162-C"
           }
         ]
       },
@@ -8096,6 +8185,146 @@
       ]
     },
     {
+      "id": "ZW162-C",
+      "name": {
+        "en": "Doorbell 6"
+      },
+      "class": "other",
+      "capabilities": [
+        "onoff.siren",
+        "alarm_tamper"
+      ],
+      "images": {
+        "large": "/drivers/ZW162-C/assets/images/large.jpg",
+        "small": "/drivers/ZW162-C/assets/images/small.jpg"
+      },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
+      },
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
+      },
+      "zwave": {
+        "manufacturerId": 881,
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          162
+        ],
+        "zwaveAllianceProductId": 3292,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3292/Doorbell%206%20product%20manual.pdf",
+        "learnmode": {
+          "image": "/drivers/ZW162-C/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press the action button on the rear of Doorbell 6",
+            "nl": "Druk op de actie knop op de achterkant van Doorbell 6"
+          }
+        },
+        "unlearnmode": {
+          "image": "/drivers/ZW162-C/assets/learnmode.svg",
+          "instruction": {
+            "en": "Quickly press the action button on the rear of Doorbell 6 6 times.",
+            "nl": "Druk 6 keer snel achter elkaar op de actie knop van de achterkant van Doorbell 6."
+          }
+        },
+        "associationGroupsMultiChannel": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Group 1 is assigned to the Lifeline association group and every device has 5 nodes to associate.\nWhen the Siren is received the commands sent by controller to be turned on or off, the Siren will send a basic report of its status to the nodes in association group 1. To change what kind of signal is sent to the nodes in group 1, please see the detailed description of configuration parameter 80.\n"
+            }
+          }
+        }
+      },
+      "settings": [
+        {
+          "id": "default_sound",
+          "type": "dropdown",
+          "label": {
+            "en": "Default sound",
+            "nl": "Standaard geluid"
+          },
+          "hint": {
+            "en": "This setting determines which sound should be played by default.",
+            "nl": "Deze instelling bepaalt welk geluid er standaard afgespeeld wordt."
+          },
+          "value": "1",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Doorbell",
+                "nl": "Deurbel"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Alarm Siren",
+                "nl": "Alarm sirene"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Ding dong",
+                "nl": "Ding dong"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Bell Telephone",
+                "nl": "Klassieke telefoon"
+              }
+            },
+            {
+              "id": "5",
+              "label": {
+                "en": "Big Ben",
+                "nl": "Big Ben"
+              }
+            },
+            {
+              "id": "6",
+              "label": {
+                "en": "Smoke Alarm",
+                "nl": "Rook alarm"
+              }
+            },
+            {
+              "id": "7",
+              "label": {
+                "en": "Nuclear Alarm",
+                "nl": "Nuclear alarm"
+              }
+            },
+            {
+              "id": "8",
+              "label": {
+                "en": "Ring Alarm",
+                "nl": "Bel alarm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ZW164-C",
       "name": {
         "en": "Indoor Siren 6"
@@ -8122,14 +8351,13 @@
         "productId": [
           164
         ],
-        "includeSecure": false,
         "zwaveAllianceProductId": 3301,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3301/Indoor%20Siren%206%20product%20manual.pdf",
         "learnmode": {
           "image": "/drivers/ZW164-C/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the action button on the rear of Indoor Siren 6",
-            "nl": "Druk op de actie knop op de achterkant van Indoor Siren 6"
+            "en": "Press the action button on the rear of Indoor Siren 6. If Indoor Siren 6 does not repsond, rapidly press the action buttons 6 times.",
+            "nl": "Druk op de actie knop op de achterkant van Indoor Siren 6. Wanneer Indoor Siren 6 niet reageert, druk dan 6 keer snel achter elkaar op de actie knop."
           }
         },
         "unlearnmode": {
@@ -8230,6 +8458,524 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ZW175",
+      "name": {
+        "en": "Smart Switch 7"
+      },
+      "class": "socket",
+      "capabilities": [
+        "measure_power",
+        "meter_power",
+        "onoff"
+      ],
+      "images": {
+        "large": "/drivers/ZW175/assets/images/large.png",
+        "small": "/drivers/ZW175/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 881,
+        "productTypeId": [
+          3,
+          259,
+          515,
+          771
+        ],
+        "productId": [
+          175
+        ],
+        "zwaveAllianceProductId": 6544,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3437/Smart%20Switch%207%20product%20manual.pdf - Smart Switch 7 product manual.pdf",
+        "learnmode": {
+          "instruction": {
+            "en": "Press the (action) button 2x times in 1 second on the Smart Switch 7 to enter learn mode"
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Z-Wave Plus Lifeline.\r\nThe Hial CC and Basic Report CC (configured by parameter 80) can be sent to the associatd nodes in this group. Typically the main Z-Wave controller Node ID 01 should be associated to this association."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Retransmit received command to other Z-Wave devices by sending duplicated message to other associated Z-Wave devices."
+            }
+          }
+        },
+        "defaultConfiguration": [
+          {
+            "id": 4,
+            "size": 2,
+            "value": 2415
+          },
+          {
+            "id": 8,
+            "size": 1,
+            "value": 0
+          },
+          {
+            "id": 9,
+            "size": 2,
+            "value": 0
+          },
+          {
+            "id": 10,
+            "size": 2,
+            "value": 0
+          },
+          {
+            "id": 18,
+            "size": 1,
+            "value": 2
+          },
+          {
+            "id": 20,
+            "size": 1,
+            "value": 2
+          },
+          {
+            "id": 80,
+            "size": 1,
+            "value": 2
+          },
+          {
+            "id": 81,
+            "size": 1,
+            "value": 2
+          },
+          {
+            "id": 82,
+            "size": 4,
+            "value": 301991936
+          },
+          {
+            "id": 91,
+            "size": 2,
+            "value": 0
+          },
+          {
+            "id": 92,
+            "size": 2,
+            "value": 0
+          },
+          {
+            "id": 93,
+            "size": 1,
+            "value": 0
+          },
+          {
+            "id": 101,
+            "size": 4,
+            "value": 3
+          },
+          {
+            "id": 111,
+            "size": 4,
+            "value": 600
+          }
+        ]
+      },
+      "settings": [
+        {
+          "id": "4",
+          "type": "number",
+          "label": {
+            "en": "Current overload protection"
+          },
+          "hint": {
+            "en": "This parameter (91) determines whether or not the Smart Switch 7 protects plugged-in devices from overcurrent based on the value set."
+          },
+          "zwave": {
+            "index": 91,
+            "size": 2,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 2145
+          },
+          "value": 2145
+        },
+        {
+          "id": "8",
+          "type": "dropdown",
+          "label": {
+            "en": "Alarm Response"
+          },
+          "hint": {
+            "en": "This parameter (8) determines how the Switch should respond when an alarm is received."
+          },
+          "zwave": {
+            "index": 8,
+            "size": 1
+          },
+          "value": "0",
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Disable, no reaction."
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Switch turns ON"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Switch turns OFF"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Switch turns on for 5 seconds, then turns off for 5 seconds. This is repeated until user disables alarm manually by triple tapping SS7s' button."
+              }
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "type": "number",
+          "label": {
+            "en": "Alarm Settings"
+          },
+          "hint": {
+            "en": "This parameter (9) determines what the Switch responds to what alarms in your Z-Wave System (Z-Wave smoke detectors, motion sensors, etc). 1 - access control trigger state, 256 - Smoke Alarm, 512 - CO Alarm, 2048 - CO2 Alarm, 4096 - Water Alarm, 8192 - Access Control, 16384 - Home Security"
+          },
+          "zwave": {
+            "index": 9,
+            "size": 2,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 32513
+          },
+          "value": 0
+        },
+        {
+          "id": "10",
+          "type": "number",
+          "label": {
+            "en": "Setting to disable Alarm"
+          },
+          "hint": {
+            "en": "This parameter (10) how you are able to disable your alarm. Value 0 will allow you to disable using 3x button press, Value 1 will allow you to disable whenn a idle response is received, values 10 - 255 will set the duration of the alarm state in seconds."
+          },
+          "zwave": {
+            "index": 10,
+            "size": 2,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "value": 0
+        },
+        {
+          "id": "18",
+          "type": "number",
+          "label": {
+            "en": "Minimum wattage change needed before an update report is send"
+          },
+          "hint": {
+            "en": "This parameter (18) determines the LED blinking frequency per second when alarm is enabled."
+          },
+          "zwave": {
+            "index": 18,
+            "size": 1,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 9
+          },
+          "value": 2
+        },
+        {
+          "id": "19",
+          "type": "number",
+          "label": {
+            "en": "Minimum wattage change (%) needed before an update report is send"
+          },
+          "hint": {
+            "en": "This parameter (19) is a SET only command, setting this parameter will cause the LED to blink in for X amount of seconds before it stops on its own."
+          },
+          "zwave": {
+            "index": 19,
+            "size": 2
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "value": 5
+        },
+        {
+          "id": "20",
+          "type": "dropdown",
+          "label": {
+            "en": "Action in the case of a power outage."
+          },
+          "hint": {
+            "en": "This parameter (20) determines the state of the Switch after power comes back."
+          },
+          "zwave": {
+            "index": 20,
+            "size": 1
+          },
+          "value": "0",
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Last State"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Switch turns ON."
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Switch turns OFF."
+              }
+            }
+          ]
+        },
+        {
+          "id": "80",
+          "type": "dropdown",
+          "label": {
+            "en": "Instant Status Update."
+          },
+          "hint": {
+            "en": "This parameter (80) allows the Switch to report a status update when controlled by other devices or by its own physical button."
+          },
+          "zwave": {
+            "index": 80,
+            "size": 1
+          },
+          "value": "2",
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Nothing"
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Basic Report."
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Binary Switch."
+              }
+            }
+          ]
+        },
+        {
+          "id": "81",
+          "type": "dropdown",
+          "label": {
+            "en": "LED Indicator Mode."
+          },
+          "hint": {
+            "en": "This parameter (81) determines how the LED on Switch should react."
+          },
+          "zwave": {
+            "index": 81,
+            "size": 1
+          },
+          "value": "2",
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "LED Disabled."
+              }
+            },
+            {
+              "id": "1",
+              "label": {
+                "en": "Night Light Mode."
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "On/Off LED follow."
+              }
+            }
+          ]
+        },
+        {
+          "id": "82",
+          "type": "number",
+          "label": {
+            "en": "If Night Light mode is set on Parameter 81, you can configure the time setting of when the LED turns on and off. Default settings will turn the light on at 6pm, and turn off light at 8am."
+          },
+          "hint": {
+            "en": "This parameter (82) is a SET only command, setting this parameter will cause the LED to blink in for X amount of seconds before it stops on its own."
+          },
+          "zwave": {
+            "index": 82,
+            "size": 4
+          },
+          "attr": {
+            "min": 0,
+            "max": 389748539
+          },
+          "value": 301991936
+        },
+        {
+          "id": "91",
+          "type": "number",
+          "label": {
+            "en": "Threshold Power (W)."
+          },
+          "hint": {
+            "en": "This parameter (91) determines the threshold value that is required of Watt to change before it can report."
+          },
+          "zwave": {
+            "index": 91,
+            "size": 2
+          },
+          "attr": {
+            "min": 0,
+            "max": 2300
+          },
+          "value": 5
+        },
+        {
+          "id": "92",
+          "type": "number",
+          "label": {
+            "en": "Threshold Consumption (kWh)."
+          },
+          "hint": {
+            "en": "This parameter (92) determines the threshold value that is required of kWh to change before it can report."
+          },
+          "zwave": {
+            "index": 92,
+            "size": 2
+          },
+          "attr": {
+            "min": 0,
+            "max": 10000
+          },
+          "value": 0
+        },
+        {
+          "id": "93",
+          "type": "number",
+          "label": {
+            "en": "Threshold Current (A)."
+          },
+          "hint": {
+            "en": "This parameter (93) determines the threshold value that is required of A to change before it can report. The setting is set in value*0.1 scale."
+          },
+          "zwave": {
+            "index": 93,
+            "size": 1
+          },
+          "attr": {
+            "min": 0,
+            "max": 100
+          },
+          "value": 0
+        },
+        {
+          "id": "101",
+          "type": "number",
+          "label": {
+            "en": "Sensors reported at a timed interval."
+          },
+          "hint": {
+            "en": "This parameter (101) allows you to set the sensors that are reported at a timed interval. Value 1 = kWh, Value 2 = W, Value 4 = V, Value 8 = A."
+          },
+          "zwave": {
+            "index": 101,
+            "size": 4
+          },
+          "attr": {
+            "min": 0,
+            "max": 15
+          },
+          "value": 15
+        },
+        {
+          "id": "111",
+          "type": "number",
+          "label": {
+            "en": "Sensor interval report setting."
+          },
+          "hint": {
+            "en": "This parameter (101) allows you to set the interval at which the sensors set on Parameter 101 to be reported every X amount of seconds."
+          },
+          "zwave": {
+            "index": 101,
+            "size": 4
+          },
+          "attr": {
+            "min": 0,
+            "max": 2592000
+          },
+          "value": 600
+        }
+      ]
+    },
+    {
+      "id": "ZW189",
+      "name": {
+        "en": "Range Extender 7"
+      },
+      "class": "other",
+      "capabilities": [],
+      "images": {
+        "large": "/drivers/ZW189/assets/images/large.png",
+        "small": "/drivers/ZW189/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 881,
+        "productTypeId": [
+          4,
+          516,
+          2564
+        ],
+        "productId": [
+          189
+        ],
+        "zwaveAllianceProductId": 3699,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=product_documents/3699/Range%20Extender%207%20EU%20-%20Product%20Manual.pdf",
+        "learnmode": {
+          "image": "/drivers/ZW189/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press the action button on the Range Extender 7.",
+            "nl": "Druk op de actie knop op de Range Extender 7."
+          }
+        },
+        "associationGroups": [
+          1
+        ]
+      }
     },
     {
       "id": "ZWA008",

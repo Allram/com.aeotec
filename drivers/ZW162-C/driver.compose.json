@@ -1,0 +1,55 @@
+{
+  "id": "ZW162-C",
+  "name": {
+    "en": "Doorbell 6"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff.siren",
+    "alarm_tamper"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.jpg",
+    "small": "{{driverAssetsPath}}/images/small.jpg"
+  },
+  "energy": {
+    "batteries": [
+      "INTERNAL"
+    ]
+  },
+  "zwave": {
+    "manufacturerId": 881,
+    "productTypeId": [
+      3
+    ],
+    "productId": [
+      162
+    ],
+    "zwaveAllianceProductId": 3292,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3292/Doorbell%206%20product%20manual.pdf",
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Press the action button on the rear of {{driverNameEn}}",
+        "nl": "Druk op de actie knop op de achterkant van {{driverNameNl}}"
+      }
+    },
+    "unlearnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Quickly press the action button on the rear of {{driverNameEn}} 6 times.",
+        "nl": "Druk 6 keer snel achter elkaar op de actie knop van de achterkant van {{driverNameNl}}."
+      }
+    },
+    "associationGroupsMultiChannel": [
+      1, 2, 3, 4, 5, 6, 7, 8
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Group 1 is assigned to the Lifeline association group and every device has 5 nodes to associate.\nWhen the Siren is received the commands sent by controller to be turned on or off, the Siren will send a basic report of its status to the nodes in association group 1. To change what kind of signal is sent to the nodes in group 1, please see the detailed description of configuration parameter 80.\n"
+        }
+      }
+    }
+  }
+}

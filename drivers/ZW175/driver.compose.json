@@ -1,0 +1,122 @@
+{
+  "id": "ZW175",
+  "name": {
+    "en": "Smart Switch 7"
+  },
+  "class": "socket",
+  "capabilities": [
+      "measure_power",
+      "meter_power",
+      "onoff"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 881,
+    "productTypeId": [
+      3,
+	  259,
+      515,
+      771
+    ],
+    "productId": [
+      175
+    ],
+    "zwaveAllianceProductId": 6544,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/3437/Smart%20Switch%207%20product%20manual.pdf - Smart Switch 7 product manual.pdf",
+    "learnmode": {
+      "instruction": {
+        "en": "Press the (action) button 2x times in 1 second on the Smart Switch 7 to enter learn mode"
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Z-Wave Plus Lifeline.\r\nThe Hial CC and Basic Report CC (configured by parameter 80) can be sent to the associatd nodes in this group. Typically the main Z-Wave controller Node ID 01 should be associated to this association."
+        }
+      },
+	  "2": {
+		"hint": {
+		  "en": "Retransmit received command to other Z-Wave devices by sending duplicated message to other associated Z-Wave devices."
+		}
+	  }
+    },
+    "defaultConfiguration": [
+      {
+        "id": 4,
+        "size": 2,
+        "value": 2415
+      },
+      {
+        "id": 8,
+        "size": 1,
+        "value": 0
+      },
+      {
+        "id": 9,
+        "size": 2,
+        "value": 0
+      },
+      {
+        "id": 10,
+        "size": 2,
+        "value": 0
+      },
+      {
+        "id": 18,
+        "size": 1,
+        "value": 2
+      },
+      {
+        "id": 20,
+        "size": 1,
+        "value": 2
+      },
+	  {
+        "id": 80,
+        "size": 1,
+        "value": 2
+      },
+      {
+        "id": 81,
+        "size": 1,
+        "value": 2
+      },
+	  {
+        "id": 82,
+        "size": 4,
+        "value": 301991936
+      },
+	  {
+        "id": 91,
+        "size": 2,
+        "value": 0
+      },
+	  {
+        "id": 92,
+        "size": 2,
+        "value": 0
+      },
+	  {
+        "id": 93,
+        "size": 1,
+        "value": 0
+      },
+	  {
+        "id": 101,
+        "size": 4,
+        "value": 3
+      },
+	  {
+        "id": 111,
+        "size": 4,
+        "value": 600
+      }
+    ]
+  }
+}

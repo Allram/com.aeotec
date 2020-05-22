@@ -4,9 +4,9 @@ const { ZwaveDevice } = require('homey-meshdriver');
 
 class ZW140 extends ZwaveDevice {
 
-	onMeshInit() {
-		this.registerCapability('onoff', 'BASIC');
-	}
+  onMeshInit() {
+    this.registerCapability('onoff', 'BASIC');
+  }
 
 }
 

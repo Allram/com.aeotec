@@ -1,20 +1,20 @@
 'use strict';
 
-const ZwaveDevice = require('homey-meshdriver').ZwaveDevice;
+const { ZwaveDevice } = require('homey-meshdriver');
 
 class ZW111C extends ZwaveDevice {
-	
-	onMeshInit() {
-        this.registerCapability('onoff', 'SWITCH_BINARY');
-        this.registerCapability('dim', 'SWITCH_MULTILEVEL');
 
-        this.registerCapability('measure_power', 'METER');
-        this.registerCapability('meter_power', 'METER');
+  onMeshInit() {
+    this.registerCapability('onoff', 'SWITCH_BINARY');
+    this.registerCapability('dim', 'SWITCH_MULTILEVEL');
 
-        this.registerReportListener('BASIC', 'BASIC_SET', (report) => {
-          this.setCapabilityValue('onoff', !!report.Value);
-        });
-    }
+    this.registerCapability('measure_power', 'METER');
+    this.registerCapability('meter_power', 'METER');
+
+    this.registerReportListener('BASIC', 'BASIC_SET', report => {
+      this.setCapabilityValue('onoff', !!report.Value);
+    });
+  }
 
 }
 

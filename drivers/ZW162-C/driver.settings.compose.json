@@ -1,0 +1,73 @@
+[
+  {
+    "id": "default_sound",
+    "type": "dropdown",
+    "label": {
+      "en": "Default sound",
+      "nl": "Standaard geluid"
+    },
+    "hint": {
+      "en": "This setting determines which sound should be played by default.",
+      "nl": "Deze instelling bepaalt welk geluid er standaard afgespeeld wordt."
+    },
+    "value": "1",
+    "values": [
+      {
+        "id": "1",
+        "label": {
+          "en": "Doorbell",
+          "nl": "Deurbel"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "Alarm Siren",
+          "nl": "Alarm sirene"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "Ding dong",
+          "nl": "Ding dong"
+        }
+      },
+      {
+        "id": "4",
+        "label": {
+          "en": "Bell Telephone",
+          "nl": "Klassieke telefoon"
+        }
+      },
+      {
+        "id": "5",
+        "label": {
+          "en": "Big Ben",
+          "nl": "Big Ben"
+        }
+      },
+      {
+        "id": "6",
+        "label": {
+          "en": "Smoke Alarm",
+          "nl": "Rook alarm"
+        }
+      },
+      {
+        "id": "7",
+        "label": {
+          "en": "Nuclear Alarm",
+          "nl": "Nuclear alarm"
+        }
+      },
+      {
+        "id": "8",
+        "label": {
+          "en": "Ring Alarm",
+          "nl": "Bel alarm"
+        }
+      }
+    ]
+  }
+]
